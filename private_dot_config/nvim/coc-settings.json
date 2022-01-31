@@ -1,0 +1,32 @@
+{
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-11",
+      "path": "/usr/lib/jvm/java-11-openjdk"
+    },
+    {
+      "name": "JavaSE-17",
+      "path": "/usr/lib/jvm/java-17-openjdk",
+      "default": true
+    }
+  ],
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "typescript.tsx"
+  ],
+  "languageserver": {
+    "dockerfile": {
+      "command": "docker-languageserver",
+      "filetypes": ["dockerfile"],
+      "args": ["--stdio"]
+    },
+    "efm": {
+      "command": "efm-langserver",
+      "args": [],
+      "filetypes": ["vim", "eruby", "markdown"]
+    }
+  }
+}

@@ -14,5 +14,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-surround'
 Plug 'tc50cal/vim-terminal'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+Plug 'akinsho/bufferline.nvim'
+Plug 'moll/vim-bbye'
 
 call plug#end()

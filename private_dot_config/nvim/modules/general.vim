@@ -9,5 +9,5 @@ set softtabstop=4
 set mouse=a
 set autoindent
 
-colorscheme gruvbox
+colorscheme deus
 

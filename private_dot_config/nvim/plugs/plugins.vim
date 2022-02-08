@@ -17,6 +17,7 @@ Plug 'tc50cal/vim-terminal'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 Plug 'akinsho/bufferline.nvim'
 Plug 'moll/vim-bbye'
+Plug 'wakatime/vim-wakatime'
 
 Plug 'ajmwagar/vim-deus'
 

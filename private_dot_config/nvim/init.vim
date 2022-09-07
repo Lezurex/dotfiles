@@ -6,4 +6,4 @@ source $HOME/.config/nvim/modules/nerdtree.vim
 source $HOME/.config/nvim/modules/prettier.vim
 source $HOME/.config/nvim/modules/ctrlp.vim
 source $HOME/.config/nvim/modules/airline.vim
-source $HOME/.config/nvim/modules/bufferline.vim
+

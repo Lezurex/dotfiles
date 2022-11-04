@@ -28,5 +28,6 @@
       "args": [],
       "filetypes": ["vim", "eruby", "markdown"]
     }
-  }
+  },
+  "snippets.ultisnips.pythonPrompt": false
 }

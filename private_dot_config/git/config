@@ -1,0 +1,20 @@
+[user]
+	name = Lenny
+	email = lenny@familie-angst.ch
+	signingkey = lenny@familie-angst.ch
+[core]
+	autocrlf = input
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
+[credential]
+	helper = store
+[init]
+  defaultBranch = main
+[diff "odt"]
+  textconv = odt2txt
+[diff "odp"]
+  textconv = odt2txt
+[diff "ods"]
+  textconv = odt2txt
